@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.693" tests="6" errors="0" skipped="5" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Unirora\Desktop\Personnel Docs\Pipedrive\seleniumProject\TestObjects"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Unirora\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.2.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Unirora\AppData\Local\Android\Sdk\tools;C:\Users\Unirora\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\apache-maven-3.2.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\python3.8\;C:\Python37;C:\Program Files\gradle-2.8\bin;C:\Users\Unirora\AppData\Local\Temp\87.0.4280.20\chromedriver;C:\Users\Unirora\AppData\Roaming\npm\node_modules\geckodriver;C:\Users\Unirora\AppData\Roaming\npm\node_modules\iedriver\lib\iedriver64;C:\Users\Unirora\AppData\Roaming\npm\node_modules\edgedriver;C:\Users\Unirora\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Unirora\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Unirora\AppData\Local\Programs\Python\Python37\;C:\Users\Unirora\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin;;C:\Users\Unirora\AppData\Local\Programs\Fiddler;C:\Program Files\JetBrains\WebStorm 2019.1\bin;;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Unirora\AppData\Local\Polycom\RealPresence Desktop\;C:\Users\Unirora\AppData\Local\Microsoft\WindowsApps;C:\Users\Unirora\ffmpeg\bin\;C:\Users\Unirora\AppData\Local\Android\android-sdk\bundletool.jar;C:\Users\Unirora\AppData\Local\Programs\Microsoft VS Code\bin;&quot;C:\Program Files\Nodejs;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Unirora\AppData\Local\Android\Sdk\tools;C:\Users\Unirora\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\apache-maven-3.2.1\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\python3.8\;C:\Python37;C:\Program Files\gradle-2.8\bin;C:\Users\Unirora\AppData\Local\Temp\87.0.4280.20\chromedriver;C:\Users\Unirora\AppData\Roaming\npm\node_modules\geckodriver;C:\Users\Unirora\AppData\Roaming\npm\node_modules\iedriver\lib\iedriver64;C:\Users\Unirora\AppData\Roaming\npm\node_modules\edgedriver;C:\Users\Unirora\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL&quot;;C:\Users\Unirora\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Unirora\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="surefire.suiteXmlFiles" value="pipeDriveDealVerificationSuite.xml"/>
+    <property name="user.home" value="C:\Users\Unirora"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="UNiroRa"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.2.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -P PROD -Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="beforeClass" classname="tests.PipeDriveDealVerificationSuite" time="14.389">
+    <failure message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'LKSRIWL-89LVZF2', ip: '172.30.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -> name: submit]
+Session ID: 31d18550740353aae6e1501ab9b6eb52
+	at tests.PipeDriveDealVerificationSuite.beforeClass(PipeDriveDealVerificationSuite.java:110)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 58578
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 04, 2022 9:09:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Jul 04, 2022 9:09:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Jul 04, 2022 9:09:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+Jul 04, 2022 9:10:00 AM controllers.LoginController getLoginPageFunctions
+INFO: Start | getLoginPageFunctions()
+Jul 04, 2022 9:10:00 AM functions.LoginPageFunctions loginToPipedrive
+INFO: Start | loginToPipedrive()
+Jul 04, 2022 9:10:00 AM pageobjects.LandingPage clickOnLoginLink
+INFO: Start | clickOnLoginLink()
+Jul 04, 2022 9:10:02 AM pageobjects.LoginPage enterEmail
+INFO: Start | enterEmail()
+Jul 04, 2022 9:10:03 AM pageobjects.LoginPage enterPassword
+INFO: Start | enterPassword()
+Jul 04, 2022 9:10:03 AM pageobjects.LoginPage clickOnLoginButton
+INFO: Start | clickOnLoginButton()
+Jul 04, 2022 9:10:05 AM pageobjects.LoginPage clickOnLoginButton
+INFO: Fail | clickOnLoginButton()
+Jul 04, 2022 9:10:05 AM functions.LoginPageFunctions loginToPipedrive
+INFO: Fail | loginToPipedrive()
+]]></system-err>
+  </testcase>
+  <testcase name="cleanUpData" classname="tests.PipeDriveDealVerificationSuite" time="0">
+    <skipped message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52"/>
+  </testcase>
+  <testcase name="createAndVerifyDealDetails" classname="tests.PipeDriveDealVerificationSuite" time="0">
+    <skipped message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52"/>
+  </testcase>
+  <testcase name="verifyDealCreationWithExistingContact" classname="tests.PipeDriveDealVerificationSuite" time="0">
+    <skipped message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52"/>
+  </testcase>
+  <testcase name="verifyProductCreationAndAttachingToDeal" classname="tests.PipeDriveDealVerificationSuite" time="0">
+    <skipped message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52"/>
+  </testcase>
+  <testcase name="verifyDealLostWonAndConvert" classname="tests.PipeDriveDealVerificationSuite" time="0">
+    <skipped message="unknown error: unexpected command response&#10;  (Session info: chrome=103.0.5060.66)&#10;Build info: version: &apos;4.2.1&apos;, revision: &apos;ac4d0fdd4a&apos;&#10;System info: host: &apos;LKSRIWL-89LVZF2&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [31d18550740353aae6e1501ab9b6eb52, clickElement {id=b28d9b15-6ba5-49ea-a47f-30d6fdcd449c}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Unirora\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57425/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (31d18550740353aae6e1501ab9b6eb52)] -&gt; name: submit]&#10;Session ID: 31d18550740353aae6e1501ab9b6eb52"/>
+  </testcase>
+</testsuite>
