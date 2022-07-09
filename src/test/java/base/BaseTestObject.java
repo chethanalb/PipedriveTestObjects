@@ -5,7 +5,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utils.Config;
@@ -40,11 +39,7 @@ public class BaseTestObject {
 
 //             System.setProperty("webdriver.chrome.driver", driverPath);
             WebDriverManager.chromedriver().setup();
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--headless");
-            driver = new ChromeDriver(options);
+            driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
 
