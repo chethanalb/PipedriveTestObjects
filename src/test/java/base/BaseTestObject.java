@@ -1,5 +1,6 @@
 package base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTestObject {
 
-    String driverPath = "C:\\WebDrivers\\chromedriver.exe";
+//     String driverPath = "C:\\WebDrivers\\chromedriver.exe";
 
     public static WebDriver driver;
     public Logger logger = Logger.getLogger(BaseTestObject.class.getName());
@@ -36,7 +37,8 @@ public class BaseTestObject {
             pipedriveUrl = Config.getProperty("pipedrive.url");
             parser = new JSONParser();
 
-            System.setProperty("webdriver.chrome.driver", driverPath);
+//             System.setProperty("webdriver.chrome.driver", driverPath);
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
