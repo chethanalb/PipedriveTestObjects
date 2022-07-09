@@ -30,4 +30,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Run with Maven
-      run: mvn clean test -P PROD -Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml
+      run: mvn clean test -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
