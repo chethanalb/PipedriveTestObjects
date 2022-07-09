@@ -27,8 +27,8 @@
   <servers>
     <server>
       <id>github</id>
-      <username>${env.GH_USERNAME}</username>
-      <password>${env.GH_TOKEN}</password>
+      <username>chethanalb</username>
+      <password>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</password>
     </server>
   </servers>
 </settings>
