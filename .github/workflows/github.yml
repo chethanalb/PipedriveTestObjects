@@ -42,3 +42,5 @@ jobs:
         
     - name: Run with Maven
       run: mvn clean test -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
