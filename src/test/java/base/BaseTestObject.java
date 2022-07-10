@@ -5,6 +5,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utils.Config;
@@ -37,9 +38,12 @@ public class BaseTestObject {
             pipedriveUrl = Config.getProperty("pipedrive.url");
             parser = new JSONParser();
 
-//             System.setProperty("webdriver.chrome.driver", driverPath);
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--headless");
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--start-maximized");
+            driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
 
