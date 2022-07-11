@@ -15,3 +15,5 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 WORKDIR /usr/src/app
 
 COPY . .
+
+RUN mvn clean -s settings.xml install
