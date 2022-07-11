@@ -37,7 +37,7 @@ public class BaseTestObject {
             testDataPath = Config.getProperty("template.data.path");
             pipedriveUrl = Config.getProperty("pipedrive.url");
             parser = new JSONParser();
-
+            System.setProperty("webdriver.chrome.whitelistedIps", "");
             WebDriverManager.chromedriver().setup();
 //            ChromeOptions options = new ChromeOptions();
 //            options.addArguments("--no-sandbox");
