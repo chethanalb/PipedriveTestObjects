@@ -1,6 +1,6 @@
 name: Executing Tests
 
-  -uses:-ssettings-xml
+  # -uses:-ssettings-xml
 
 on:
   push:
@@ -20,8 +20,8 @@ jobs:
            env
            cd /usr/src/app
            ls
-           mvn clean install
-           mvn clean test -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
+           mvn clean -s settings.xml install
+           mvn clean test -s settings.xml -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
       env:
         GH_USERNAME: ${{ secrets.GH_USERNAME }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
