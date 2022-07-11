@@ -41,6 +41,7 @@ public class BaseTestObject {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
+            options.addArguments("window-size=1800x1080");
             options.addArguments("--test-type");
             options.addArguments("--disable-gpu");
             options.addArguments("--no-first-run");
