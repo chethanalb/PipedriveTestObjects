@@ -27,7 +27,7 @@ jobs:
           -e "GH_USERNAME=${{ secrets.GH_USERNAME }}" \
           -e "GH_TOKEN=${{ secrets.GH_TOKEN }}" \
           ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }}-temp \
-          /bin/bash -c "cd /usr/src/app && mvn clean -s settings.xml install && unset GH_USERNAME && unset GH_TOKEN"
+          /bin/bash -c "cd /usr/src/app && mvn clean -s settings.xml -DskipTests=true install && unset GH_USERNAME && unset GH_TOKEN"
     - name: commit image
       run: docker commit chethana ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }}
     - name: Docker push
@@ -45,11 +45,7 @@ jobs:
            env
            cd /usr/src/app
            pwd && ls -al
-           mvn clean -s settings.xml install
            mvn clean test -s settings.xml -P PROD -Dsurefire.suiteXmlFiles="pipeDriveDealVerificationSuite.xml"
-      env:
-        GH_USERNAME: ${{ secrets.GH_USERNAME }}
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
          
 #   test:
         
