@@ -36,7 +36,7 @@ jobs:
            cd /usr/src/app
            pwd && ls -al
            mvn clean -s settings.xml install
-           mvn clean test -s settings.xml -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
+           mvn clean test -s settings.xml -P PROD -Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml
       env:
         GH_USERNAME: ${{ secrets.GH_USERNAME }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
