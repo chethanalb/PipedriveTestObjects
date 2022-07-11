@@ -39,12 +39,14 @@ public class BaseTestObject {
             parser = new JSONParser();
             System.setProperty("webdriver.chrome.whitelistedIps", "");
             WebDriverManager.chromedriver().setup();
-//            ChromeOptions options = new ChromeOptions();
-//            options.addArguments("--no-sandbox");
-//            options.addArguments("--headless");
-//            options.addArguments("--window-size=1920,1080");
-//            options.addArguments("--start-maximized");
-            driver = new ChromeDriver();
+            chromeOptions.addArguments("--headless");
+            chromeOptions.addArguments("--test-type");
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--no-first-run");
+            chromeOptions.addArguments("--no-default-browser-check");
+            chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.addArguments("--start-maximized");
+            driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.manage().window().maximize();
 
