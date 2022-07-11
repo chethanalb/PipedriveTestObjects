@@ -39,6 +39,7 @@ public class BaseTestObject {
             parser = new JSONParser();
             System.setProperty("webdriver.chrome.whitelistedIps", "");
             WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless");
             options.addArguments("--test-type");
             options.addArguments("--disable-gpu");
