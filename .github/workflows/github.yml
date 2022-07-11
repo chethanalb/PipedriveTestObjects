@@ -34,6 +34,7 @@ jobs:
       run: |
            env
            cd /usr/src/app
+           pwd && ls -al
            mvn clean -s settings.xml install
            mvn clean test -s settings.xml -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
       env:
