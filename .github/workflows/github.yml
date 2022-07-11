@@ -23,7 +23,7 @@ jobs:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
     - name: Build docker image
-      run: docker build --build_arg GH_USERNAME=${{ secrets.GH_USERNAME }} --build_arg GH_TOKEN=${{ secrets.GITHUB_TOKEN }} -t ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }} .
+      run: docker build --build-arg GH_USERNAME=${{ secrets.GH_USERNAME }} --build-arg GH_TOKEN=${{ secrets.GITHUB_TOKEN }} -t ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }} .
     - name: Docker push
       run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }}
       
