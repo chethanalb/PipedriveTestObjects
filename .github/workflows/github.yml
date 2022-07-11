@@ -27,7 +27,7 @@ jobs:
       run: mvn clean install -D'maven.test.skip=true'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
- 
+      
   pushdocker:
         
    runs-on:  ubuntu-latest
@@ -41,6 +41,8 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         
+   needs: build
+   
 #   test:
         
 #    runs-on: windows-latest
