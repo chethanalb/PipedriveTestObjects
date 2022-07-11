@@ -8,6 +8,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+permissions:
+  packages: read
+  
+
 jobs:
   docker_build:
     runs-on: ubuntu-latest
@@ -25,9 +29,9 @@ jobs:
         docker run \
           --name chethana \
           -e "GH_USERNAME=${{ secrets.GH_USERNAME }}" \
-          -e "GH_TOKEN=${{ secrets.GH_TOKEN }}" \
+          -e "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" \
           ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }}-temp \
-          /bin/bash -c "cd /usr/src/app && mvn clean -s settings.xml -DskipTests=true install && unset GH_USERNAME && unset GH_TOKEN"
+          /bin/bash -c "cd /usr/src/app && mvn clean -s settings.xml -DskipTests=true install"
     - name: commit image
       run: docker commit chethana ${{ secrets.DOCKER_HUB_USERNAME }}/chethana:${{ github.sha }}
     - name: Docker push
