@@ -16,13 +16,15 @@ jobs:
       image: ubandc2/chethana:main-6c58979
     steps: 
     - name: execute test
-      run: | 
+      run: |
+           env
            cd /usr/src/app
            ls
            mvn clean install
            mvn clean test -P PROD "-Dsurefire.suiteXmlFiles=pipeDriveDealVerificationSuite.xml"
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_USERNAME: ${{ secrets.GH_USERNAME }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
          
 #   test:
         
