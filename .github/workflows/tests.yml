@@ -10,10 +10,6 @@ on:
   repository_dispatch:
     types: [sample_push]  
 
-permissions:
-  packages: read
-  
-
 jobs:
   docker_build:
     runs-on: ubuntu-latest
