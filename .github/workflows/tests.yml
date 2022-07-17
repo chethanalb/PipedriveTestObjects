@@ -1,6 +1,6 @@
 name: Executing Tests
 
--uses:-ssettings-xml
+ -uses:-ssettings-xml
 
 on:
   push:
